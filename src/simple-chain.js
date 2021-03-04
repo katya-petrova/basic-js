@@ -27,7 +27,7 @@ return this;
 
   finishChain() {
     let chain = this.chain.join('~~');
-    this.chain = [];
+    this.chain = []; //clean an array
     return chain;
   },         
 };
